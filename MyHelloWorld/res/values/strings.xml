@@ -7,5 +7,14 @@
     <string name="calculate">Calculate</string>
     <string name="zero">0.0</string>
     <string name="output_hint">Sum of two area is:</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="number_3">3</string>
+    <string name="number_4">4</string>
+    <string name="number_5">5</string>
+    <string name="number_6">6</string>
+    <string name="choose_wire_number_hint">Please choose wire number:</string>
+    <string name="choose_next">Next</string>
+    <string name="match_wire">Match wire</string>
 
 </resources>

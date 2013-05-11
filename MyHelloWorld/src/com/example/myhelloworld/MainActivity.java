@@ -26,7 +26,37 @@ public class MainActivity extends Activity {
         mDiameterEdit2 = (EditText)findViewById(R.id.diameter_edit2);
         mResultView = (TextView)findViewById(R.id.result_view);
     }
+    
+    @Override
+    protected void onStart() {
+        super.onStart();
+    }
 
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+    }
+    
     public void calculateArea(View v) {
     	Double diameter1 = Double.valueOf(mDiameterEdit1.getText().toString());
     	Double diameter2 = Double.valueOf(mDiameterEdit2.getText().toString());
@@ -43,4 +73,8 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    public void startActivityChooseWireNumber(View v) {
+        Intent intent = new Intent(MainActivity.this, ChooseWireNumberActivity.class);
+        startActivity(intent);
+    }
 }

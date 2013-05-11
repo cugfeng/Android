@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">MyHelloWorld</string>
+    <string name="action_settings">Settings</string>
+    <string name="input_hint">Please input two diameters:</string>
+    <string name="calculate">Calculate</string>
+    <string name="zero">0.0</string>
+    <string name="output_hint">Sum of two area is:</string>
+
+</resources>
