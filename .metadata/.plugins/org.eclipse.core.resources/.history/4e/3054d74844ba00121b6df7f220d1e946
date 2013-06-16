@@ -1,7 +1,0 @@
-package com.example.myhelloworld;
-
-import android.app.Activity;
-
-public class ChooseWireNumberActivity extends Activity {
-
-}
